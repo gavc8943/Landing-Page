@@ -3,7 +3,22 @@
     padding: 0;
     margin: 0;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .box img {
-    height: auto;
+    height: 300px;
     max-width: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+img {
+    border-radius: 12px;
+    max-width: 400px;
+}
+footer {
+    margin-top: auto;
 }
