@@ -7,12 +7,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "roboto" , sans-serif;
+    
 }
 .hero .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    
 }
 .hero a:hover{
     color: red;
@@ -40,15 +43,20 @@ ul {
 .header {
     background-color: #1F2937;
     min-height: 400px;
+    
 }
 .header h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin-right: 50px;
+    margin-bottom: 10px;
 }
 .header p {
     font-size: 18px;
     color: #E5E7E5;
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 .header button {
     background-color: #3882f6;
@@ -60,6 +68,7 @@ ul {
     border: none;
     cursor: pointer;
     transition: all 200ms ease-in-out;
+    
 }
 .header button:hover{
     color: red;
@@ -68,14 +77,82 @@ ul {
 .header img {
     border-radius: 12px;
     max-width: 400px;
+    height: 300px;
+    
+    
 }
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.boxes h2 {
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.box {
+    flex: 1;
+}
+
+.boxes .container {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+
 
 .box img {
     height: 300px;
     max-width: 200px;
     border-radius: 12px;
     object-fit: cover;
+    flex: 1;
 }
+.quote-box  {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    
+}
+.quote-box .container p:nth-child(2) {
+    font-size: 18px;
+}
+.call .container {
+    background-color: #3882f6;;
+    height: 150px;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    margin-top: 80px;
+    color: #E5E7EB;
+}
+.call .container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.call .container button {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: 600;
+    border: 1px solid white;
+}
+.call button:hover{
+    color: red;
+    background-color: #F9FAF8;
+}
+
 
 footer {
     margin-top: auto;
