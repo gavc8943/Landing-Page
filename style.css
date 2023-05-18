@@ -134,6 +134,8 @@ ul {
     align-items: center;
     margin-top: 80px;
     color: #E5E7EB;
+    border-radius: 10px;
+    margin-bottom: 80px;
 }
 .call .container h3{
     font-size: 20px;
@@ -156,6 +158,12 @@ ul {
 
 footer {
     margin-top: auto;
+    height: 80px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .container {
